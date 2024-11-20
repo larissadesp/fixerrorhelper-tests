@@ -1,5 +1,5 @@
 package tests;
 
-public enum EnumTestEnum {
+public enum TesteEnum {
     VALOR1, VALOR2;
 }

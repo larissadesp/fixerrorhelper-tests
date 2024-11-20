@@ -150,7 +150,7 @@ public class Test {
 			break;
 		case 13:
 			TestCloneNotSupportedException.test();
-	        SemClone.test();
+	        TesteSemClone.test();
 			break;
 		case 14:
 			TestIllegalAccessException.test();

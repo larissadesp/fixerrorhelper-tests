@@ -1,11 +1,11 @@
 package tests.checked;
 
-import tests.ClasseAbstrata;
+import tests.TesteClasseAbstrata;
 
 public class TestInstatiationException {
 	public static void test() {
 		try {
-			ClasseAbstrata obj = ClasseAbstrata.class.newInstance();
+			TesteClasseAbstrata obj = TesteClasseAbstrata.class.newInstance();
 		} catch (InstantiationException e) {
 			e.printStackTrace();
 		} catch (IllegalAccessException e) {

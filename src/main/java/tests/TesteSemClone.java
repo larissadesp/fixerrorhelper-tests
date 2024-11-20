@@ -1,9 +1,9 @@
 package tests;
 
-public class SemClone {
+public class TesteSemClone {
 	public static void test() {
 		try {
-			SemClone obj = new SemClone();
+			TesteSemClone obj = new TesteSemClone();
 			obj.clone();
 		} catch (CloneNotSupportedException e) {
 			e.printStackTrace();
